@@ -3,8 +3,6 @@
 How to use :
 pip install -r requirements.txt
 
----
-
 streamlit run app.py
 
 Here's a walkthrough of how the whole system works, from start to finish.
