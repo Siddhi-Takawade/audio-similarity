@@ -1,0 +1,22 @@
+# Core ML & Audio
+numpy>=1.24.0
+librosa>=0.10.0
+soundfile>=0.12.0
+scikit-learn>=1.3.0
+
+# Vector search (use faiss-gpu for CUDA acceleration)
+faiss-cpu>=1.7.4
+
+# PyTorch (CPU — required by CLAP)
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# CLAP semantic audio model (optional but strongly recommended)
+# Downloads ~400 MB on first use, then works offline.
+msclap>=1.3.3
+
+# Audio format decoding
+audioread>=3.0.0
+
+# UI
+streamlit>=1.32.0
